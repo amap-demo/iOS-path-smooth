@@ -95,7 +95,9 @@
 
 - (void)initSmoothedTrace {
     MASmoothPathTool *tool = [[MASmoothPathTool alloc] init];
-    
+    tool.intensity = 3;
+    tool.threshHold = 0.3;
+    tool.noiseThreshhold = 10;
     self.smoothedTracePoints = [tool pathOptimize:self.origTracePoints];
     
     CLLocationCoordinate2D *pCoords = malloc(sizeof(CLLocationCoordinate2D) * self.smoothedTracePoints.count);
