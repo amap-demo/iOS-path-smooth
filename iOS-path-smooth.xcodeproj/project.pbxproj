@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6687CF51F8F1DED0062185A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B6687CF41F8F1DED0062185A /* main.m */; };
+		B6687CF81F8F1DED0062185A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B6687CF71F8F1DED0062185A /* AppDelegate.m */; };
+		B6687CFB1F8F1DED0062185A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6687CFA1F8F1DED0062185A /* ViewController.m */; };
+		B6687CFE1F8F1DED0062185A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6687CFC1F8F1DED0062185A /* Main.storyboard */; };
+		B6687D001F8F1DED0062185A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6687CFF1F8F1DED0062185A /* Assets.xcassets */; };
+		B6687D031F8F1DED0062185A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6687D011F8F1DED0062185A /* LaunchScreen.storyboard */; };
+		B6687D0B1F8F23DF0062185A /* AMapTrace2.txt in Resources */ = {isa = PBXBuildFile; fileRef = B6687D0A1F8F23DF0062185A /* AMapTrace2.txt */; };
+		B6687D111F8F3A8B0062185A /* MASmoothPathTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6687D101F8F3A8B0062185A /* MASmoothPathTool.m */; };
+		F0DFB83144703927896B72FE /* libPods-iOS-path-smooth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37EBB056FCE1B6992CBE0046 /* libPods-iOS-path-smooth.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BD3063DD5C0D30997F68CAA /* Pods-iOS-path-smooth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-path-smooth.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-path-smooth/Pods-iOS-path-smooth.release.xcconfig"; sourceTree = "<group>"; };
+		37EBB056FCE1B6992CBE0046 /* libPods-iOS-path-smooth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOS-path-smooth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62AC124C289062E02B0A9C7C /* Pods-iOS-path-smooth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-path-smooth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-path-smooth/Pods-iOS-path-smooth.debug.xcconfig"; sourceTree = "<group>"; };
+		B6687CF01F8F1DED0062185A /* iOS-path-smooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-path-smooth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6687CF41F8F1DED0062185A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B6687CF61F8F1DED0062185A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B6687CF71F8F1DED0062185A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B6687CF91F8F1DED0062185A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B6687CFA1F8F1DED0062185A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B6687CFD1F8F1DED0062185A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6687CFF1F8F1DED0062185A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6687D021F8F1DED0062185A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6687D041F8F1DED0062185A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6687D0A1F8F23DF0062185A /* AMapTrace2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AMapTrace2.txt; sourceTree = "<group>"; };
+		B6687D0F1F8F3A8B0062185A /* MASmoothPathTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASmoothPathTool.h; sourceTree = "<group>"; };
+		B6687D101F8F3A8B0062185A /* MASmoothPathTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASmoothPathTool.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6687CED1F8F1DED0062185A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0DFB83144703927896B72FE /* libPods-iOS-path-smooth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01813C3BB1A01A9A19E15B88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				62AC124C289062E02B0A9C7C /* Pods-iOS-path-smooth.debug.xcconfig */,
+				0BD3063DD5C0D30997F68CAA /* Pods-iOS-path-smooth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6687CE71F8F1DED0062185A = {
+			isa = PBXGroup;
+			children = (
+				B6687CF21F8F1DED0062185A /* iOS-path-smooth */,
+				B6687CF11F8F1DED0062185A /* Products */,
+				01813C3BB1A01A9A19E15B88 /* Pods */,
+				E04209B21D0F7250A64A40BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B6687CF11F8F1DED0062185A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6687CF01F8F1DED0062185A /* iOS-path-smooth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6687CF21F8F1DED0062185A /* iOS-path-smooth */ = {
+			isa = PBXGroup;
+			children = (
+				B6687D0F1F8F3A8B0062185A /* MASmoothPathTool.h */,
+				B6687D101F8F3A8B0062185A /* MASmoothPathTool.m */,
+				B6687D0A1F8F23DF0062185A /* AMapTrace2.txt */,
+				B6687CF61F8F1DED0062185A /* AppDelegate.h */,
+				B6687CF71F8F1DED0062185A /* AppDelegate.m */,
+				B6687CF91F8F1DED0062185A /* ViewController.h */,
+				B6687CFA1F8F1DED0062185A /* ViewController.m */,
+				B6687CFC1F8F1DED0062185A /* Main.storyboard */,
+				B6687CFF1F8F1DED0062185A /* Assets.xcassets */,
+				B6687D011F8F1DED0062185A /* LaunchScreen.storyboard */,
+				B6687D041F8F1DED0062185A /* Info.plist */,
+				B6687CF31F8F1DED0062185A /* Supporting Files */,
+			);
+			path = "iOS-path-smooth";
+			sourceTree = "<group>";
+		};
+		B6687CF31F8F1DED0062185A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B6687CF41F8F1DED0062185A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E04209B21D0F7250A64A40BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				37EBB056FCE1B6992CBE0046 /* libPods-iOS-path-smooth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6687CEF1F8F1DED0062185A /* iOS-path-smooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6687D071F8F1DED0062185A /* Build configuration list for PBXNativeTarget "iOS-path-smooth" */;
+			buildPhases = (
+				4D3B85B4928BBB16EC691681 /* [CP] Check Pods Manifest.lock */,
+				B6687CEC1F8F1DED0062185A /* Sources */,
+				B6687CED1F8F1DED0062185A /* Frameworks */,
+				B6687CEE1F8F1DED0062185A /* Resources */,
+				EF67A80E9ACA4960F0902387 /* [CP] Embed Pods Frameworks */,
+				7A79318079AC1FD502AB5DB0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-path-smooth";
+			productName = "iOS-path-smooth";
+			productReference = B6687CF01F8F1DED0062185A /* iOS-path-smooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6687CE81F8F1DED0062185A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = autonavi;
+				TargetAttributes = {
+					B6687CEF1F8F1DED0062185A = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = B6687CEB1F8F1DED0062185A /* Build configuration list for PBXProject "iOS-path-smooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6687CE71F8F1DED0062185A;
+			productRefGroup = B6687CF11F8F1DED0062185A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6687CEF1F8F1DED0062185A /* iOS-path-smooth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6687CEE1F8F1DED0062185A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6687D0B1F8F23DF0062185A /* AMapTrace2.txt in Resources */,
+				B6687D031F8F1DED0062185A /* LaunchScreen.storyboard in Resources */,
+				B6687D001F8F1DED0062185A /* Assets.xcassets in Resources */,
+				B6687CFE1F8F1DED0062185A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D3B85B4928BBB16EC691681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A79318079AC1FD502AB5DB0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-path-smooth/Pods-iOS-path-smooth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF67A80E9ACA4960F0902387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOS-path-smooth/Pods-iOS-path-smooth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6687CEC1F8F1DED0062185A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6687D111F8F3A8B0062185A /* MASmoothPathTool.m in Sources */,
+				B6687CFB1F8F1DED0062185A /* ViewController.m in Sources */,
+				B6687CF81F8F1DED0062185A /* AppDelegate.m in Sources */,
+				B6687CF51F8F1DED0062185A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B6687CFC1F8F1DED0062185A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6687CFD1F8F1DED0062185A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6687D011F8F1DED0062185A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6687D021F8F1DED0062185A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6687D051F8F1DED0062185A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Debug;
+		};
+		B6687D061F8F1DED0062185A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
+			};
+			name = Release;
+		};
+		B6687D081F8F1DED0062185A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62AC124C289062E02B0A9C7C /* Pods-iOS-path-smooth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "iOS-path-smooth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-path-smooth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4592e5f2-e62a-411c-a394-94b6f5f6148e";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+			};
+			name = Debug;
+		};
+		B6687D091F8F1DED0062185A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BD3063DD5C0D30997F68CAA /* Pods-iOS-path-smooth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "iOS-path-smooth/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.autonavi.iOS-path-smooth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6687CEB1F8F1DED0062185A /* Build configuration list for PBXProject "iOS-path-smooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6687D051F8F1DED0062185A /* Debug */,
+				B6687D061F8F1DED0062185A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6687D071F8F1DED0062185A /* Build configuration list for PBXNativeTarget "iOS-path-smooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6687D081F8F1DED0062185A /* Debug */,
+				B6687D091F8F1DED0062185A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6687CE81F8F1DED0062185A /* Project object */;
+}
