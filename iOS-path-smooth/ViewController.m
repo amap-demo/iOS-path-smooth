@@ -37,7 +37,10 @@
     [self.view addSubview:self.mapView];
     
     self.origTraceSwitch = [[UISwitch alloc] init];
+    self.origTraceSwitch.accessibilityIdentifier = @"origTraceSwitch";
     self.smoothedTraceSwitch = [[UISwitch alloc] init];
+    self.smoothedTraceSwitch.accessibilityIdentifier = @"smoothedTraceSwitch";
+    
     self.origTraceSwitch.center = CGPointMake(15 + self.origTraceSwitch.bounds.size.width / 2, self.view.bounds.size.height - 90);
     self.smoothedTraceSwitch.center = CGPointMake(self.origTraceSwitch.center.x, self.origTraceSwitch.center.y + self.origTraceSwitch.bounds.size.height + 5);
     
