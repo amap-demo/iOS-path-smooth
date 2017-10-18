@@ -22,6 +22,7 @@ iOS轨迹平滑处理示例
 
 ### 2:实现方法 ###
 
+`Objective-C`
 ``` 
 - (void)initSmoothedTrace {
     MASmoothPathTool *tool = [[MASmoothPathTool alloc] init];
@@ -33,4 +34,19 @@ iOS轨迹平滑处理示例
     ...
 }
 
+```
+
+`swift`
+```
+func initSmoothedTrace() {
+
+let tool = MASmoothPathTool()
+tool.intensity = 3
+tool.threshHold = 0.3
+tool.noiseThreshhold = 10
+
+self.smoothedTracePoints = tool.pathOptimize(self.origTracePoints)
+
+...
+}
 ```
